@@ -1,0 +1,37 @@
+body {
+    background-color: whitesmoke;
+	position: relative;
+}
+
+h1 {
+    color: navy;
+
+}
+table {
+	width: 100%;
+    vertical-align: middle;
+}
+.center {
+    /*margin: auto;*/
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+td.text {
+    text-align: center;
+    font-weight: bold;
+}
+td.img {
+
+}
+.testpic {
+    border: 3px solid #8AC007;
+}
+img {
+    max-width:250px;
+    max-height:250px;
+}
+footer {
+    color: navy;
+    font-size: larger;
+}
