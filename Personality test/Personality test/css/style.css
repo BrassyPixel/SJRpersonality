@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 20px;
+}
+nav {
+    position: fixed;
+    width:100%;
+    height: 50px;
+    background-color: rgba(0,0,0,.5);
+    z-index:99;
+}
+.sect {
+    height:100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.subSect {
+    height: 10%;
+}
+.sect1 {
+    background-image: url("../backgrounds/1179-pastel-circles-1920x1080-abstract-wallpaper.jpg");
+
+}
+.sect2 {
+    background-image: url("../backgrounds/desktop-wallpaper-nature-hd-free-dowload.jpg");
+}
+.sect3 {
+    background-image: url("../backgrounds/royalty-free-backgrounds-1920x1080.jpg");
+}
+.testpic {
+    display: inline-block;
+    border-radius: 3px;
+    width: 250px;
+    height: 250px;
+    background: #ccc;
+    margin:5px;
+    border: 5px solid #1C1C22;
+    -webkit-transition: border 0.5s;
+}
+.testpic:hover {
+    display: inline-block;
+    background: #ccc;
+    margin:5px;
+    border: 5px solid #8AC007;
+}
+.container {
+    margin: auto;
+    border: 10px solid #1C1C22;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 20px;
+    text-align: center;
+    width: 80%;
+}
+img {
+    width:250px;
+    height:250px;
+}
