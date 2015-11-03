@@ -14,7 +14,16 @@ nav {
     height: 50px;
     background-color: rgba(0,0,0,.5);
     z-index:99;
+    text-align: center;
 }
+nav a {
+    text-decoration: none;
+    color: darkgrey;
+    margin-left: 30px;
+    line-height: 50px;
+    font-size: 200%;
+}
+
 .sect {
     height:100%;
     background-size: cover;
@@ -60,4 +69,20 @@ nav {
 img {
     width:250px;
     height:250px;
+}
+.button {
+    display: inline-block;
+    border-radius: 3px;
+    background-color: rgba(0,0,0,.5);
+    margin:5px;
+    border: 5px solid #1C1C22;
+    font-size:200%;
+    color:darkgray;
+    -webkit-transition: border 0.5s;
+}
+.button:hover {
+    display: inline-block;
+    background-color: #1C1C22;
+    margin: 5px;
+    border: 5px solid #8AC007;
 }
